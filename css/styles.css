@@ -47,6 +47,33 @@ h6 {
   display: inline-block;
 }
 
+.skip-link {
+  position: absolute;
+  top: -28px;
+  left: 0;
+  display: inline-block;
+  height: 28px;
+  padding: 5px;
+  background: #333;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: normal;
+  color: #fff;
+  z-index: 100;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.skip-link:focus {
+  top: 0;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
 /* HEADER */
 header {
   background: #f30a1c;
