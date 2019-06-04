@@ -192,7 +192,8 @@ main {
   border-top-right-radius: 10px;
 }
 
-.filter-result ul li h1 {
+.filter-result ul li h3 {
+  font-size: 24px;
   color: #f30a1c;
   padding: 15px 20px;
 }
